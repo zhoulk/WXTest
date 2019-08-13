@@ -1,0 +1,116 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1932,
+      "height": 1056,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 470,
+                "type": "panel",
+                "width": 299
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 466,
+                "type": "panel",
+                "width": 299
+              }
+            ],
+            "height": 938,
+            "type": "dock-v",
+            "width": 299
+          },
+          {
+            "active": 0,
+            "children": [
+              "scene"
+            ],
+            "height": 938,
+            "type": "panel",
+            "width": 437
+          },
+          {
+            "active": 0,
+            "children": [
+              "console",
+              "node-library",
+              "timeline"
+            ],
+            "height": 938,
+            "type": "panel",
+            "width": 850
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ],
+            "height": 938,
+            "type": "panel",
+            "width": 324
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "node-library",
+        "timeline",
+        "inspector",
+        "cocos-services",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "builder": {
+      "x": 321,
+      "y": 173,
+      "width": 670,
+      "height": 738
+    },
+    "preferences": {
+      "x": 662,
+      "y": 241,
+      "width": 600,
+      "height": 564
+    },
+    "project-settings": {
+      "x": 662,
+      "y": 241,
+      "width": 600,
+      "height": 564
+    },
+    "simulator-debugger": {
+      "x": 552,
+      "y": 191,
+      "width": 816,
+      "height": 638
+    },
+    "package-asset.import": {
+      "x": 727,
+      "y": 236,
+      "width": 470,
+      "height": 574
+    }
+  }
+}
